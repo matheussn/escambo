@@ -1,0 +1,112 @@
+@font-face{
+	font-family: roboto;
+	src: url('../fonts/roboto/Roboto-Light.ttf');
+}
+body{
+	padding: 0px
+	margin 0px;
+	overflow-x: hidden !important;
+}
+.brand-logo{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#menu_home{
+
+}
+#menu_home li a{
+	color: #212121;
+	font: roboto;
+}
+
+#menu_home li a:hover{
+	color: #00bcd4;
+	background: white;
+}
+#recents_video{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	border: 1px solid #424242;
+}
+#recents_video li{
+	background: #212121;
+	border: 1px solid #424242;
+}
+#recents_video li img{
+	border-radius: 0px;
+}
+#recents_video li:hover{
+	background: #00bcd4;
+	cursor: pointer;
+}
+#side_admin a{
+	color: #fff;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+#img-news{
+	position: fixed;
+	background: url(http://orig11.deviantart.net/20eb/f/2015/030/6/f/_minflat__dark_material_design_wallpaper__4k__by_dakoder-d8fjqzu.jpg);
+	width: 100%;
+	height: 400px;
+	z-index: 1;
+}
+#postagem{
+	z-index: 99;
+	width: 100%;
+}
+#add_video{
+	width: 100%;
+	bottom: 0px;
+	height: 200px;
+	background: #ccc;
+}
+.toast_alert{
+	background: #b71c1c;
+	padding: 30px;
+}
+.toast_great{
+	background: #1b5e20;
+	padding: 30px;
+}
+#btn_sair{
+	border-radius: 0px;
+	width: 100px;
+}
+#popover{
+	position: absolute;
+	width: 100%;
+	top:64px;
+	background: white;
+	color:#000;
+	z-index:1px;
+	padding: 10px 0px 0px 0px;
+
+}
+#menu_popover{
+	border-radius: 0px;
+	background: #000;
+	margin: 1px;
+	color: #fff;
+}
+#menu_popover i{
+	color:#fff;
+}
+#menu_popover a{
+	color:#fff;
+}
+#menu_popover:hover{
+	cursor: pointer;
+	background: rgba(0,0,0,0.5) !important;
+
+}
+#recents_menu li:hover{
+	cursor: pointer;
+	background: #00bcd4 !important;
+}
+.user-details{background:url("http://i.imgur.com/wt4NRqA.jpg") no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;margin-bottom:15px;padding:15px 0 0 15px}ul.side-nav.leftside-navigation li.user-details #profile-dropdown a{padding:8px 15px}ul.side-nav.leftside-navigation .profile-btn{margin:0;text-transform:capitalize;padding:0;text-shadow:1px 1px 1px #444;font-size:15px}ul.side-nav.leftside-navigation ul.collapsible-accordion{background-color:#fff}ul.side-nav li{padding:0}ul.side-nav .collapsible-header{margin:0}#slide-out li a i{line-height:inherit;width:2rem;font-size:1.6rem;display:block;float:left;text-align:center;margin-right:1rem}#slide-out ul.side-nav li{padding:0 !important}.caption{font-size:1.25rem;font-weight:300;margin-bottom:30px}.caption-uppercase{font-size:1.25rem;font-weight:300;margin-bottom:30px;text-transform:uppercase}.sidebar-collapse{position:absolute;left:-170px;top:-45px}.user-task,.user-time{margin:0;font-size:13px;color:#fff}.user-roal{color:#fff;margin-top:-16px;font-size:13px;text-shadow:1px 1px 1px #444}.user-details .row{margin:0}
+.task-add{position:absolute;right:10px;top:105px}
