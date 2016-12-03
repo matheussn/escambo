@@ -12,7 +12,7 @@ class HomeController extends MainController
 
         require (escambo_route()->view . '_includes/header.php');
 
-        require (escambo_route()->view . '_includes/menu.php');
+        require (escambo_route()->view . '_includes/menu-home.php');
 
         require (escambo_route()->view . 'home/home-view.php');
 

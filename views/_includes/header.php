@@ -25,4 +25,3 @@
 	<script src="<?php echo HOME_URI . "/views/_js/jquery.js"?>"></script>
  	<script src="<?php echo HOME_URI . "/views/bootstrap/js/bootstrap.js"?>"></script>
 </head>
-<body>

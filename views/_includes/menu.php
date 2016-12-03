@@ -13,13 +13,8 @@
             </button>
             <a class="navbar-brand" href="#">Só Barganha</a>
         </div>
-        <div class="navbar-brand collapse nav navbar-nav navbar-collapse navbar-right" id="collapse-navbar" >
-            <div class="btn-group">
-              <button type="button" class="btn btn-info">Login</button>
-            </div>
-            <div class="btn-group">
-              <button type="button" class="btn btn-success">Cadastre-se</button>
-            </div>
-        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            
+        </div><!-- /.navbar-collapse -->
     </div>
 </nav>

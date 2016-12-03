@@ -23,4 +23,11 @@ body
 #collapse-navbar
 {
 	padding: 10px 15px;
+	width: 700px;
+}
+
+#ul-button
+{
+	margin-top: 8px;
+	margin-bottom: 8px;
 }
