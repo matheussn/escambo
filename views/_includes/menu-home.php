@@ -38,12 +38,36 @@
                 </button>
                 <h4 class="modal-title" id="myModalLabel">Cadastre-se</h4>
             </div>
-            <div class="modal-body">
-                <input type="radio" name="gender" value="male" checked> Usuário
-                <br>
-                <input type="radio" name="gender" value="female"> Enpresa
-                <br>
-                <input type="radio" name="gender" value="other"> Ong
+            <div class="modal-body" id="modal-body-cad">
+                <p>
+                    <input type="radio" name="gender" value="User" checked> Usuário
+                    <br>
+                    <input type="radio" name="gender" value="Emp"> Empresa
+                    <br>
+                    <input type="radio" name="gender" value="Ong"> Ong
+                </p>
+                <p>
+                    <input type="text" name="nome" placeholder="Nome Completo" class="col-xs-11">
+                    <br>
+                    <br>
+                    <input type="text" name="username" placeholder="username" class="col-xs-11">
+                    <br>
+                    <br>
+                    <input type="email" name="email" placeholder="E-mail" class="col-xs-11">
+                    <br>
+                    <br>
+                    <input type="text" name="cpf" placeholder="CPF" class="col-xs-10">
+                    <br>
+                    <br>
+                    <h4>Endereço:</h4>
+                    <input type="text" name="estado" placeholder="Estado" class="col-xs-2">
+                    <br>
+                    <br>
+                    <input type="text" name="cidade" placeholder="Cidade" class="col-xs-4">
+                    <br>
+                    <br>
+                    <input type="text" name="logradouro" placeholder="Logradouro" class="col-xs-5">
+                </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
