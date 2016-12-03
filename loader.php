@@ -4,9 +4,9 @@ session_start();
 
 global $Nutec;
 
-include_once(dirname(__FILE__).'/libraries/scambo.lib.route.php');
+include_once(dirname(__FILE__).'/libraries/escambo.lib.route.php');
 
-include_once(scambo_route()->libs . 'scambo.lib.constants.php');
+include_once(escambo_route()->libs . 'escambo.lib.constants.php');
 
 if ( ! defined('DEBUG') || DEBUG === false ) {
 	error_reporting(0);
@@ -17,6 +17,6 @@ if ( ! defined('DEBUG') || DEBUG === false ) {
 	ini_set("display_errors", 1); 
 }
 
-require_once (scambo_route()->function . 'global-functions.php');
+require_once (escambo_route()->function . 'global-functions.php');
 
-$scambo = new scamboMVC();
+$escambo = new escamboMVC();

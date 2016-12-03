@@ -1,0 +1,26 @@
+body
+{
+	background-color: #fff;
+	padding-top: 70px;
+}
+
+.jumbotron
+{
+	background-image: 'localhost/escambo/views/_images/img1-slide.png';
+}
+
+.container
+{
+	width: 1170px;
+}
+
+#menu-principal
+{
+	border-bottom: 1px;
+	margin-bottom: 20px;
+}
+
+#collapse-navbar
+{
+	padding: 10px 15px;
+}
