@@ -17,10 +17,10 @@ class escamboMVC
 		if ( ! $this->controlador ) {
 			
 			
-			require_once escambo_route()->controller . 'home-controller.php';
+			require_once escambo_route()->controller . 'usuario-controller.php';
 			
 			
-			$this->controlador = new HomeController();
+			$this->controlador = new UsuarioController();
 			
 			
 			$this->controlador->index();

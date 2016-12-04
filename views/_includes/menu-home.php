@@ -2,7 +2,7 @@
 
 <?php if ( $this->login_required && ! $this->logged_in ) return; ?>
 
-<body>
+
 <nav id="menu-principal" class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">

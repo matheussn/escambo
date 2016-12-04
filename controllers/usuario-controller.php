@@ -4,7 +4,7 @@ class UsuarioController extends MainController
 
     public function index() {
 
-		$this->title = 'Só Barganha';
+		$this->title = 'Só Barganha - Usuário';
 
 		//$parametros = ( func_num_args() >= 1 ) ? func_get_arg(0) : array();
 
