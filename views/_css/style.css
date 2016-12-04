@@ -34,5 +34,10 @@ body
 
 #modal-body-cad
 {
-	height: 500px;
+	height: 520px;
+}
+
+.glyphicon
+{
+	top: 0px;
 }

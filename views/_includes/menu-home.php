@@ -40,34 +40,58 @@
             </div>
             <div class="modal-body" id="modal-body-cad">
                 <p>
-                    <input type="radio" name="gender" value="User" checked> Usuário
+                    <input type="radio" name="User" value="User" checked> Usuário
                     <br>
-                    <input type="radio" name="gender" value="Emp"> Empresa
+                    <input type="radio" name="User" value="Emp"> Empresa
                     <br>
-                    <input type="radio" name="gender" value="Ong"> Ong
+                    <input type="radio" name="User" value="Ong"> Ong
                 </p>
-                <p>
-                    <input type="text" name="nome" placeholder="Nome Completo" class="col-xs-11">
-                    <br>
-                    <br>
-                    <input type="text" name="username" placeholder="username" class="col-xs-11">
-                    <br>
-                    <br>
+                
+                <div class="input-group">
+                    <span class="input-group-addon glyphicon glyphicon-user"></span>
+                    <input type="text" name="nome" placeholder="Nome Completo da Ong" class="col-xs-11">
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon">@</span>
                     <input type="email" name="email" placeholder="E-mail" class="col-xs-11">
-                    <br>
-                    <br>
-                    <input type="text" name="cpf" placeholder="CPF" class="col-xs-10">
-                    <br>
-                    <br>
-                    <h4>Endereço:</h4>
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon glyphicon glyphicon-credit-card"></span>
+                    <input type="text" name="cnpj" placeholder="CNPJ" class="col-xs-10">
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon glyphicon glyphicon-credit-card"></span>
+                    <input type="text" name="cnas" placeholder="CNAS" class="col-xs-10">
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon glyphicon glyphicon-user"></span>
+                    <input type="text" name="username" placeholder="username" class="col-xs-11">
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon glyphicon glyphicon-lock"></span>
+                    <input type="password" name="senha" placeholder="senha" class="col-xs-11">
+                </div>
+                <h4>Endereço:</h4>
+                <div class="input-group">
+                    <span class="input-group-addon glyphicon glyphicon-road"></span>
                     <input type="text" name="estado" placeholder="Estado" class="col-xs-2">
-                    <br>
-                    <br>
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon glyphicon glyphicon-road"></span>
                     <input type="text" name="cidade" placeholder="Cidade" class="col-xs-4">
-                    <br>
-                    <br>
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon glyphicon glyphicon-home"></span>
                     <input type="text" name="logradouro" placeholder="Logradouro" class="col-xs-5">
-                </p>
+                </div>
+                
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
