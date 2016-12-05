@@ -6,6 +6,8 @@ class HomeController extends MainController
 
 		$this->title = 'Só Barganha - Home';
 
+        $this->help = 'home';
+		
 		//$parametros = ( func_num_args() >= 1 ) ? func_get_arg(0) : array();
 
 		//$api = $this->load_model(escambo_route()->component.'/escambo_home/model/home-model');

@@ -1,0 +1,152 @@
+body
+{
+	background-color: #fff;
+	padding-top: 50px;
+}
+
+.jumbotron
+{
+	background-image: 'localhost/escambo/views/_images/img1-slide.png';
+}
+
+.container
+{
+	width: 1170px;
+}
+
+#menu-principal
+{
+	border-bottom: 1px;
+	margin-bottom: 20px;
+}
+
+#collapse-navbar
+{
+	padding: 10px 15px;
+	width: 700px;
+}
+
+#ul-button
+{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+#modal-body-cad
+{
+	height: 520px;
+}
+
+.glyphicon
+{
+	top: 0px;
+}
+
+#submenu {
+    background-color: white;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+ }
+
+#submenu > .nav-tabs {
+    border-bottom: window none;
+}
+
+#submenu > ul {
+    height: 42px;
+}
+
+
+.navbar-inverse{
+    margin-bottom: 0;
+}
+
+.nav-tabs{
+    text-align: center;
+
+}
+#submenu > .nav-tabs {
+    border-bottom: window none;
+}
+.nav-tabs > .active{
+    box-shadow:  0px 5px 0px 0px rgba(255,115,21,1);
+}
+
+#submenu .nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background: none;
+}
+
+#submenu{
+    background-color: white;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.nav-tabs.nav-justified > .active > a,
+.nav-tabs.nav-justified > .active > a:hover,
+.nav-tabs.nav-justified > .active > a:focus {
+    border: 1px solid white;
+    background-color: white;
+}
+
+.nav-tabs > li > a:hover {
+    border-color: transparent;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: #555555;
+    background-color: white;
+    border: 1px solid white;
+    border-bottom-color: transparent;
+    cursor: default;
+}
+
+#main{
+    margin-top: 50px;
+}
+
+
+.list-group-item{
+    text-align: center;
+}
+button.list-group-item{
+    text-align: center;
+}
+.bs-callout
+{
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+
+.bs-callout-info {
+    border-left-color: #ffffff;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+.vertical-bottom{
+    vertical-align: bottom;
+}
+
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+#carousel
+{
+    margin-top: 10px;
+}

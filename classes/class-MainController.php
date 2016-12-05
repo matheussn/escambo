@@ -8,6 +8,8 @@ class MainController extends UserLogin
 
 	public $title;
 
+	public $help;
+
 	public $login_required = false;
 
 	public $permission_required = 'any';
